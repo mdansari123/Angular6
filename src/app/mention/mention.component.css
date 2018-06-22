@@ -1,0 +1,15 @@
+
+mention-list ul.dropdown-menu{
+    position: absolute;
+    /* display: block; */
+    top: -328px;
+    }
+    mention-list ul:li{
+    color: gray;
+}
+
+.dropdown-menu.scrollable-menu {
+    background-color: red;
+    position: relative;
+    top: -218px;
+}

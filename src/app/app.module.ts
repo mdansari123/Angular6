@@ -1,14 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { MentionModule } from 'angular-mentions/mention';
 import { AppComponent } from './app.component';
+import { MentionComponent } from './mention/mention.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MentionComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,MentionModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
