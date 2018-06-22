@@ -3,14 +3,16 @@ import { NgModule } from '@angular/core';
 import { MentionModule } from 'angular-mentions/mention';
 import { AppComponent } from './app.component';
 import { MentionComponent } from './mention/mention.component';
-
+import { NgxScrollbarComponent } from './ngx-scrollbar/ngx-scrollbar.component';
+import { ScrollbarModule } from 'ngx-scrollbar';
 @NgModule({
   declarations: [
     AppComponent,
-    MentionComponent
+    MentionComponent,
+    NgxScrollbarComponent
   ],
   imports: [
-    BrowserModule,MentionModule 
+    BrowserModule,MentionModule,ScrollbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
