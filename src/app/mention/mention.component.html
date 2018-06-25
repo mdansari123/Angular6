@@ -1,1 +1,1 @@
-<input type="text" (keypress)="eventHandler($event)" [mention]="items" [mentionConfig]="{triggerChar:'@',maxItems:10,labelKey:'name'}">
+<input type="text" [(ngModel)]="Selecteditem" (keypress)="eventHandler($event)" [mention]="items" [mentionConfig]="{triggerChar:'@',labelKey:'Name'}">
